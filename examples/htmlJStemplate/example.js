@@ -28,12 +28,17 @@ var numbers = {
 numbers.add();
 
 
-var i;
-var x;
-var x = new Function("a", "b", "i=a*b");
-var y = x(4, 3);
 
-document.getElementById("demo").innerHTML = i;
+var x = [4, 5, 6];
+
+document.getElementById("demo1").innerHTML = x[0];
+document.getElementById("demo2").innerHTML = x[1];
+document.getElementById("demo3").innerHTML = x[2];
+
+x[0] = 7;
+x[1] = 8;
+x[2] = 9;
+
 
 // Declaring with Constructors Syntax 
 
